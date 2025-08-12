@@ -5,25 +5,19 @@ const settings = {
     "auth": "offline", // or "microsoft"
 
     // the mindserver manages all agents and hosts the UI
-    "host_mindserver": true, // if true, the mindserver will be hosted on this machine. otherwise, specify a public IP address
+    "host_mindserver": false, // if true, the mindserver will be hosted on this machine. otherwise, specify a public IP address
     "mindserver_host": "localhost",
     "mindserver_port": 8080,
     "proxyserver_port": 8081,
     
     // the base profile is shared by all bots for default prompts/examples/modes
-    "base_profile": "./profiles/defaults/creative.json", // also see creative.json, god_mode.json
+    "base_profile": "./profiles/defaults/survival.json", // survival.json, creative.json, god_mode.json
     "profiles": [
         // "./lucy.json",
         "./max.json",
-        // "./profiles/gpt.json",
-        // "./profiles/claude.json",
-        // "./profiles/gemini.json",
-        // "./profiles/llama.json",
-        // "./profiles/qwen.json",
-        // "./profiles/grok.json",
-        // "./profiles/mistral.json",
-        // "./profiles/deepseek.json",
-        // using more than 1 profile requires you to /msg each bot indivually
+        // if you are using more than 1 profile, then 
+        // - you can use /msg or @botname in order to talk to each bot indivually
+        // - or you can use @all in order to talk to all the bots at the same time
         // individual profiles override values from the base profile
     ],
     "load_memory": false, // load memory from previous session
