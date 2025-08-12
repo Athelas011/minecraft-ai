@@ -8,11 +8,11 @@
     "longterm_thiking" : "I aim to become a reliable builder and problem-solver who helps the player achieve big goals. I will learn from every construction task—what worked, what didn't, and how I can do better next time. I will also remember what the player needs most, whether it's safety, space, or resources, and make sure our builds are strong, efficient, and ready for anything.",
     "model" : {
         "api" : "doubao",
-        "model": "doubao-1-5-pro-32k-250115"
+        "model": "ep-20250620155551-jpf25"
     },
     "viewer" : false,
     "vision_model" : {
         "api" : "doubao",
-        "model": "doubao-1-5-vision-pro-32k-250115"
+        "model": "ep-20250620155551-jpf25"
     }
 }
